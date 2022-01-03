@@ -1,0 +1,124 @@
+
+.toolbar{
+border: 1px solid red;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+height: 80px;
+width: 100vw;
+/* 100VW means 100% of Screen Width */
+}
+
+.tool{
+/* border: 1px solid green; */
+}
+
+/* We can only costumize an image by directly altering the image itself and not the parent class */
+.fas{
+    font-size: 2rem;
+    margin-right: 30px;
+    margin-left: 30px;
+    }
+.tool-img{
+height: 50px; 
+}
+
+.color-container{
+align-items: center;
+justify-content: space-evenly;
+border-radius: 2px;
+border: 1px solid red;
+display: flex;
+width: 150px;
+height: 50px;
+}
+
+.color{
+height: 40px;
+width: 40px;
+border-radius:50%;
+background-color: green;
+}
+
+.red{
+background-color: hotpink;
+}
+
+.blue{
+background-color: skyblue;
+}
+
+.green{
+background-color: springgreen;
+}
+
+.size-box{
+width: 150px;
+height: 30px;
+/* border: 1px solid gray; */
+/* display: flex; */
+display: none;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.size{
+background-color: steelblue;
+border-radius: 50%;  
+display: flex;
+}
+
+.size1{
+height: 10px;
+width: 10px;  
+}
+
+.size2{
+height: 15px;
+width:  15px;
+}
+
+.size3{
+height: 20px;
+width: 20px;
+}
+
+.size4{
+height: 25px;
+width: 25px;
+}
+
+.close{
+    background-color: lightcoral;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.minimize{
+    background-color: lightgreen;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%; 
+}
+
+.navbar{
+    /* google "Box Shadow Examples" and just copy paste from the desired design */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    display: flex;
+    height: 15%;
+    justify-content: flex-end;
+}
+
+.sticky{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 175px;
+}
+
+.textarea{
+    width: 98%;
+    outline: none;
+    border: none;
+    height: 83%;
+    border-top: 2px solid gray;
+}
